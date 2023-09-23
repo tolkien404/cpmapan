@@ -128,7 +128,7 @@
 
             <div class="row mb-5 justify-content-center">
                 <div class="col-md-7 text-center">
-                    <h2 class="section-title mb-2">22,392 Related Jobs</h2>
+                    <h2 class="section-title mb-2">{{ $relatedJobsCount }} Related Jobs</h2>
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
     </section>
 
 
-    <section class="bg-light pt-5 testimony-full">
+    {{-- <section class="bg-light pt-5 testimony-full">
 
         <div class="owl-carousel single-carousel">
 
@@ -205,9 +205,9 @@
 
         </div>
 
-    </section>
+    </section> --}}
 
-    <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+    {{-- <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 align-self-center text-center text-md-left mb-5 mb-md-0">
@@ -226,5 +226,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
